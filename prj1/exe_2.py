@@ -11,6 +11,7 @@ elif operator == '*':
 elif operator == '/':
     if float(num_2) == 0.0:
         print('error zero devision')
+        # Here is the situation that you can use raise stetement
     else:
         print(float(num_1) / float(num_2))
 else:
